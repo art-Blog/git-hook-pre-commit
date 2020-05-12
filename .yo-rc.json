@@ -1,0 +1,11 @@
+{
+  "generator-gitignore-io": {
+    "options": [
+      "aspnetcore",
+      "dotnetcore",
+      "node",
+      "visualstudio",
+      "visualstudiocode"
+    ]
+  }
+}
