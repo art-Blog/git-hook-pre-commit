@@ -4,7 +4,19 @@
 # init npm package
 npm install
 
-# copy git hooks into local git hooks folder
-npm run initGitHook
-
 ```
+
+## demo
+
+edit `/src/test.js`
+```js
+var a = 1+2
+var b = a
+
+if (1==1){
+  console.log('test')  
+}
+console.log(b)
+```
+
+`git add .` and try `git commit`
