@@ -8,13 +8,18 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint"
+      "pre-commit": "lint-staged"
     }
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^7.0.0"
+    "eslint": "^7.0.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.2"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix"
   }
 }
